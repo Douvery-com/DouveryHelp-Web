@@ -35,7 +35,7 @@
    
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Comenzar",
       "pages": [
         "introduction",
         "quickstart",
