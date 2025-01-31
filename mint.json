@@ -1,76 +1,130 @@
 {
   "$schema": "https://mintlify.com/schema.json",
   "name": "Douvery",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
- 
+  "logo":{
+    "light": "logo/light.svg",
+    "dark": "logo/dark.svg"
   },
-  "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
+    "light": "#55D799",
+    "dark": "#0D9373" 
+    
+  },
+  "theme": "prism",
+  "layout": "topnav",
+  "favicon": "/~/files/v0/b/gitbook-x-prod.appspot.com/o/organizations/BYQbTie7qxpHiv0S8b3u/sites/site_UQ8YH/icon/UDh84GWDhQSzzi0qlkHz/Diseño-sin-título-(16).png",
+  "topbarCtaButton": {
+    "name": "Instala nuestra app",
+    "url": "/aplicacion-de-douvery"
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Información legal",
+      "url": "https://mintlify.com/community"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
+  "anchors": [
+ 
     {
-      "name": "API Reference",
-      "url": "api-reference"
+        "name": "Contáctenos",
+        "icon": "envelope",
+        "url": "https://mintlify.com/contact-us"
     }
-  ],
-   
+]
+,
   "navigation": [
     {
-      "group": "Comenzar",
+      "group": "Inicio",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "home",
+         "aplicacion-de-douvery",
+          "estados-de-nuestros-servicios"
+      ]
+    },
+     
+    
+    {
+      "group": "Seguridad en douvery",
+      "pages": [
+        "seguridad-en-douvery/mi-seguridad",
+        {
+          "group": "Privacidad",
+          "pages": [
+             "seguridad-en-douvery/privacidad/my-information-on-douvery",
+            "seguridad-en-douvery/privacidad/use-of-information",
+            "seguridad-en-douvery/privacidad/with-sellers"
+          ]
+        }
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Guias",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+         {
+          "group": "Guias de Usuario",
+          "pages": [
+             "guias/user-guides/how-to-buy-on-douvery",
+            "guias/user-guides/how-to-change-my-password-on-douvery",
+            "guias/user-guides/how-to-delete-my-account-on-douvery",
+            "guias/user-guides/how-to-sell-on-douvery"
+          ]
+        },
+        {
+          "group": "Preguntas frecuentes",
+          "pages": [
+             "guias/preguntas-frecuentes/sobre-douvery",
+            "guias/preguntas-frecuentes/ubicacion-de-douvery",
+            "guias/preguntas-frecuentes/nuestro-equipo",
+            "guias/preguntas-frecuentes/articulos-vistos"
+          ]
+        }
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Legal",
       "pages": [
-        "api-reference/introduction"
+        "legal/policy",
+        {
+          "group": "Políticas",
+          "pages": [
+             "legal/policy/payment-policy",
+            "legal/policy/policy-against-counterfeiting-of-products-and-services",
+            "legal/policy/privacy-policy",
+            "legal/policy/returns-and-refunds-policy-of-douvery",
+            "legal/policy/shipping-policy",
+            "legal/policy/tax-policy",
+            "legal/policy/terms-of-use-of-douvery",
+            "legal/policy/user-generated-content-policy",
+            "legal/policy/warranty-policy"
+          ]
+        },
+        {
+          "group": "Códigos de conductas",
+          "pages": [
+             "legal/codes-of-conduct/douvery-code-of-conduct-for-product-testimonials-and-reviews"
+          ]
+        },
+        {
+          "group": "Pagos",
+          "pages": [
+             "legal/pays/protection-of-credit-and-debit-card-information"
+          ]
+        }
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Ayudas y mas",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "ayudas-y-mas/contactos"
+      ]
+    },
+    {
+      "group": "nuestros servicios",
+      "pages": [
+        "nuestros-servicios/douvery-center",
+        "nuestros-servicios/douvery-extend"
       ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
+  ]
 }
