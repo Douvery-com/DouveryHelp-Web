@@ -21,7 +21,7 @@
   "topbarLinks": [
     {
       "name": "Información legal",
-      "url": "legal/policy"
+      "url": "/legal/policy"
     }
   ],
   "anchors": [
@@ -29,7 +29,7 @@
     {
         "name": "Contáctenos",
         "icon": "envelope",
-        "url": "https://mintlify.com/contact-us"
+        "url": "mailto:douvery@douvery.com"
     }
 ]
 ,
@@ -126,5 +126,13 @@
         "nuestros-servicios/douvery-extend"
       ]
     }
-  ]
+  ],
+  "footer": {
+  "socials": { "x": "https://x.com/douvery", 
+    "instagram": "https://instagram.com/_douvery",
+    "facebook": "https://facebook.com/douvery" ,
+    "website": "https://douvery.com.do"
+} 
+  
+}
 }
