@@ -118,14 +118,7 @@
       "pages": [
         "ayudas-y-mas/contactos"
       ]
-    },
-    {
-      "group": "nuestros servicios",
-      "pages": [
-        "nuestros-servicios/douvery-center",
-        "nuestros-servicios/douvery-extend"
-      ]
-    }
+    } 
   ],
   "footer": {
   "socials": { "x": "https://x.com/douvery", 
