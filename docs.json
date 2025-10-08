@@ -92,6 +92,22 @@
             ]
           },
           {
+            "group": "Logística y Entregas",
+            "pages": [
+              "logistica-y-entregas/logistica-y-entregas",
+              "logistica-y-entregas/seguimiento-de-pedidos",
+              "logistica-y-entregas/opciones-de-entrega-y-horarios",
+              "logistica-y-entregas/que-hacer-si-no-recibo-mi-pedido"
+            ]
+          },
+          {
+            "group": "Soporte y Solución de Problemas",
+            "pages": [
+              "soporte-y-solucion-de-problemas/centro-de-ayuda-problemas-comunes",
+              "soporte-y-solucion-de-problemas/problemas-de-pago"
+            ]
+          },
+          {
             "group": "Ayudas y mas",
             "pages": ["ayudas-y-mas/contactos"]
           }
@@ -99,7 +115,7 @@
       },
       {
         "anchor": "Contáctenos",
-        "href": "mailto:douvery@douvery.com",
+        "href": "mailto:support@douvery.com",
         "icon": "envelope"
       }
     ]
