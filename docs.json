@@ -101,6 +101,17 @@
             ]
           },
           {
+            "group": "Productos y Catálogo",
+            "pages": [
+              "productos-y-catalogo/productos-y-catalogo",
+              "productos-y-catalogo/como-buscar-productos-efectivamente",
+              "productos-y-catalogo/sistema-de-categorias-y-filtros",
+              "productos-y-catalogo/lista-de-deseos-y-favoritos",
+              "productos-y-catalogo/resenas-y-calificaciones",
+              "productos-y-catalogo/comparacion-de-productos"
+            ]
+          },
+          {
             "group": "Soporte y Solución de Problemas",
             "pages": [
               "soporte-y-solucion-de-problemas/centro-de-ayuda-problemas-comunes",
